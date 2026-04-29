@@ -34,7 +34,7 @@ The exercises are organized by topics, including:
 
 * **Step 1:** Clone the repository:
 
-`git clone https://github.com/your-username/your-java-repo.git`
+`git clone https://github.com/michelevitorina/exercises-java.git`
 
 * **Step 2:** Open the project in a Java IDE (such as IntelliJ or Eclipse).
 
