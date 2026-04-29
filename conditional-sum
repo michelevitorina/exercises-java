@@ -1,0 +1,34 @@
+package JavaStudys;
+
+import java.util.Scanner;
+
+public class additionJava {
+
+	public static void main(String[] args) {
+	
+	 Scanner x = new Scanner (System.in);
+		
+	  int A, B, C, sum;
+
+		  System.out.println("Type the first number: "); A = x.nextInt();
+		
+		  System.out.println("Type the second number: ");  B = x.nextInt();
+		
+		  System.out.println("Type the third number: "); C = x.nextInt();
+		
+		x.close();
+		
+		sum = (A+B);
+		
+		  if (sum <C) {
+			 System.out.println("The sum of the first two numbers is less than the third number.");
+			
+		  } else if (sum == C) {
+			 System.out.println("The sum of the first two numbers is same than the third number");
+			
+		  } else { 
+			 System.out.println("The sum of the first two numbers is greater than the third number");
+		
+   }
+  }
+}
