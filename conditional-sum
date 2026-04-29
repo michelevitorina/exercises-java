@@ -12,7 +12,7 @@ public class additionJava {
 
 		  System.out.println("Type the first number: "); A = x.nextInt();
 		
-		  System.out.println("Type the second number: ");  B = x.nextInt();
+		  System.out.println("Type the second number: "); B = x.nextInt();
 		
 		  System.out.println("Type the third number: "); C = x.nextInt();
 		
