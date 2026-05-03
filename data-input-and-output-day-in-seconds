@@ -1,0 +1,29 @@
+package JavaStudys;
+import java.util.Scanner;
+public class DayInSeconds {
+
+ public static void main(String[] args) {
+		
+  String name;
+  int hour, minute, second, hourInSecond, minuteInSecond, dayInSeconds;
+		
+	 Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Type your name: "); name = scan.nextLine();
+		
+		  System.out.println(name + ", type the time in hours: "); hour = scan.nextInt();
+		  hourInSecond = (hour * 3600);
+		
+		  System.out.println(name + ", type the time in minutes: "); minute = scan.nextInt();
+		  minuteInSecond = (minute * 60);
+		
+	    System.out.println(name + ", type the time in seconds: "); second = scan.nextInt(); 
+		
+	 scan.close();
+	 
+	 dayInSeconds = (hourInSecond + minuteInSecond + second);
+	 
+	    System.out.println(name + ", " + dayInSeconds + " seconds of the day have passed");
+
+  }
+}
