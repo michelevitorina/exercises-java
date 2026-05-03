@@ -1,0 +1,24 @@
+package JavaStudys;
+import java.util.Scanner;
+public class LivedDays {
+
+public static void main(String[] args) {
+		
+ Scanner scan = new Scanner (System.in);
+		
+ int year, month, day, yearInDay, monthInDay, livedDays;
+		
+	 System.out.println("Type your age in years: "); year = scan.nextInt(); yearInDay = ((year * 12) * 30);
+		
+	 System.out.println("Type your age in months: "); month = scan.nextInt(); monthInDay = (month * 30);
+		
+	 System.out.println("Type your age in days: "); day = scan.nextInt();
+		
+ scan.close();
+		
+ livedDays = (yearInDay + monthInDay + day);
+	    
+	 System.out.println("You lived: " + livedDays + " days");
+  
+   }
+}
