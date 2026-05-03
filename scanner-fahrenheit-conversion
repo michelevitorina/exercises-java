@@ -1,0 +1,20 @@
+package JavaStudys;
+import java.util.Scanner;
+public class FahrenheitConversion {
+	
+public static void main(String[] args) {
+	
+  double celsius, conversionFahrenheit;
+
+   Scanner scan = new Scanner (System.in);
+   
+     System.out.println("Type the temperature in Celsius: "); celsius = scan.nextDouble(); 
+     
+  scan.close();
+   
+  conversionFahrenheit = (((9 * celsius) + 160) / 5);
+   
+     System.out.println("The result is: " + conversionFahrenheit);
+   
+	}
+}
