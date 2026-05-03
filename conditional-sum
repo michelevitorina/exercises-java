@@ -1,14 +1,12 @@
 package JavaStudys;
-
 import java.util.Scanner;
+public class AdditionJava {
 
-public class additionJava {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 	
-	 Scanner x = new Scanner (System.in);
+  Scanner x = new Scanner (System.in);
 		
-	  int A, B, C, sum;
+	 int A, B, C, sum;
 
 		  System.out.println("Type the first number: "); A = x.nextInt();
 		
@@ -16,17 +14,17 @@ public class additionJava {
 		
 		  System.out.println("Type the third number: "); C = x.nextInt();
 		
-		x.close();
+   x.close();
 		
-		sum = (A+B);
+   sum = (A+B);
 		
-		  if (sum <C) {
+		   if (sum <C) {
 			 System.out.println("The sum of the first two numbers is less than the third number.");
 			
-		  } else if (sum == C) {
+		   } else if (sum == C) {
 			 System.out.println("The sum of the first two numbers is same than the third number");
 			
-		  } else { 
+		   } else { 
 			 System.out.println("The sum of the first two numbers is greater than the third number");
 		
    }
